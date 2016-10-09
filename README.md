@@ -62,9 +62,9 @@
     然后运行第一个例子
     `$ ant -f runexample.xml-Dnumber=1 `
 
-成功结果如图所示
+    成功结果如图所示
 
-![最终结果](http://a3.qpic.cn/psb?/V10NR5mM4fLmXX/DY2NAe8SpifbPNZ0Ei1BLnVlKtBhsnkJzBk3ptIL*yM!/m/dAoBAAAAAAAAnull&bo=UgG0AQAAAAADB8Q!&rf=photolist&t=5)
+    ![最终结果](http://a3.qpic.cn/psb?/V10NR5mM4fLmXX/DY2NAe8SpifbPNZ0Ei1BLnVlKtBhsnkJzBk3ptIL*yM!/m/dAoBAAAAAAAAnull&bo=UgG0AQAAAAADB8Q!&rf=photolist&t=5)
 
 ##感想
 
