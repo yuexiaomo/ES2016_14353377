@@ -41,11 +41,11 @@
 4.  运行configure（能根据系统的环境设置一下参数，用于编译）
     ```$ ../configure CXX=g++ --disable-async-updates```
     下图为运行configure之后的截图    
-    &nbsp;![这里写图片描述](http://img.blog.csdn.net/20160927222420459)
+  ![build后]  (http://a2.qpic.cn/psb?/V10NR5mM4fLmXX/ezRIMKbNh8IYeO3NJpACFMzEof4fO8xhfyQzVcez0vc!/m/dAkBAAAAAAAAnull&bo=dQLzAAAAAAADB6Y!&rf=photolist&t=5)
 5.  编译
     ```$ sudo make install ```
     编译完后文件目录如下(`$cd ..`      `$ls`)    
-    &nbsp;![这里写图片描述](http://img.blog.csdn.net/20160927222625459)
+    ![目录](http://a2.qpic.cn/psb?/V10NR5mM4fLmXX/5PLourpZKGwPheMjGkOd.MeNBRxahRB*t.3nEnpwdo0!/m/dAkBAAAAAAAAnull&bo=ZgJ.AAAAAAADBzg!&rf=photolist&t=5)
 6.  记录当前的工作路径（会输出当前所在路径，**提前记下**）
     /home/xiaomo/systemc-2.3.1
 
@@ -64,5 +64,12 @@
 
 成功结果如图所示
 
-## &nbsp;  &nbsp;  &nbsp;![这里写图片描述](http://img.blog.csdn.net/20160927221422493)
+![最终结果](http://a3.qpic.cn/psb?/V10NR5mM4fLmXX/DY2NAe8SpifbPNZ0Ei1BLnVlKtBhsnkJzBk3ptIL*yM!/m/dAoBAAAAAAAAnull&bo=UgG0AQAAAAADB8Q!&rf=photolist&t=5)
 
+##感想
+
+1.第一次实验是关于DOL配置的内容，主要按照课件文档来就好，需要注意的是对一些基础linux命令的理解和掌握，比如cd ,ls ,sudo apt-get 等。
+
+2.第二次实验是利用Github建库，关于Github的教程可以在助教给出的链接中查到，上网也可以搜到很多。在这次zhong实验中接触到了全新的markdown语言，而在使用过程中也可以很明显的体会到这种语言在简洁性方面的优势，随时预览的功能也很方便。同时也学会了一些markdown相关语法，难度不大。
+
+3.在写readme时，比较纠结的是图片的上传问题，开始时受网上一些博客启发，想要在库下创建一个装图片的文件夹，可是创建好了之后发现把照片传上来很困难，又想到最终图片以网站链接形式引入，只要传上网就好，于是分享到了QQ空间，有点low，但是效率还是蛮高的。
