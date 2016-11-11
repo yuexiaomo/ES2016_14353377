@@ -1,0 +1,30 @@
+# ES2016_14353377
+
+# dol的examplex文件修改
+
+##操作步骤
+
+#### 步骤1
+     进入dol/examples/example2,使用gedit打开example2.xml，因为要求改为2个square模块，所以要将迭代次数<variable value = “3” name=”N”>的value由3改为2，如下图所示：
+      ![example2] (javascript:void(0))
+#### 步骤2
+     完成修改后，对代码进行重新编译运行：
+     ```cd dol/build/bin/main```
+     ```sudo ant -f runexample.xml -Dnumber=2```
+    ![example2] (http://a1.qpic.cn/psb?/V10NR5mM4fLmXX/CFE6tcOIDtF4ddo8Sg4nXZhkvDJI406AZrLcT3pPs2Q!/m/dHABAAAAAAAAnull&bo=rQH7AQAAAAADB3Q!&rf=photolist&t=5)
+     运行后的得到的example2.dot如下图：
+     ![example2](http://a3.qpic.cn/psb?/V10NR5mM4fLmXX/DaPuHKlZVQIiBVDFWLrL9kaDlLsW1223QTb0uHhc4JI!/m/dGYBAAAAAAAAnull&bo=9gFVAAAAAAADB4A!&rf=photolist&t=5)
+#### 步骤3
+     进入dol/examples/example1,使用gedit打开example1.xml，因为要求改为三次方运算，所以要把运算代码square.c中的平方运算i=i*I改为次方运算：i=i*i*i，如下图所示：
+     ![example1](http://a1.qpic.cn/psb?/V10NR5mM4fLmXX/0XrQ*GpYKmUZOAT4w2V3eTpk11HrmhMWHHlIvFgxRA8!/m/dAwBAAAAAAAAnull&bo=FgL5AQAAAAADB84!&rf=photolist&t=5)
+#### 步骤4
+     完成修改后，对代码进行重新编译运行：
+     ```cd dol/build/bin/main```
+     ```sudo ant -f runexample.xml -Dnumber=1```
+     ![example1](http://a2.qpic.cn/psb?/V10NR5mM4fLmXX/FpVPaHq1ESqZozrTX6h.Qbup9IWB.wuMILIy*Z3F2aY!/m/dAkBAAAAAAAAnull&bo=PAHFAQAAAAADB9s!&rf=photolist&t=5)
+     运行后的得到的example1.dot如下图
+     ![example1](http://a4.qpic.cn/psb?/V10NR5mM4fLmXX/XxNhmMDTq3o*VEbod3U20iCbdjnzKthuvWdhzsi2Z1s!/m/dGcBAAAAAAAAnull&bo=.AFkAAAAAAADB78!&rf=photolist&t=5)
+
+##感想
+
+这次实验比较简单，主要是对example1和example2文件的理解以及对dot图的认识，比较坑的是我忘记了怎么对文件重新编译。。所以每次都是把dol/build/main中的example文件夹删掉，再进行编译才可以。
